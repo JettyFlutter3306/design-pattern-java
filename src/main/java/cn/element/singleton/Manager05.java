@@ -5,7 +5,7 @@ package cn.element.singleton;
  */
 public class Manager05 {
 
-    private static Manager05 INSTANCE;
+    private static volatile Manager05 INSTANCE;
 
     private Manager05() {
 
