@@ -1,4 +1,4 @@
-package cn.element.chain_responsibility;
+package cn.element.chainresponsibility;
 
 import java.util.ArrayList;
 import java.util.List;

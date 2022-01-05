@@ -1,4 +1,4 @@
-package cn.element.chain_responsibility;
+package cn.element.chainresponsibility;
 
 public class Message {
 

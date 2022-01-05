@@ -1,7 +1,7 @@
-package cn.element.chain_responsibility.filter;
+package cn.element.chainresponsibility.filter;
 
-import cn.element.chain_responsibility.Filter;
-import cn.element.chain_responsibility.Message;
+import cn.element.chainresponsibility.Filter;
+import cn.element.chainresponsibility.Message;
 
 public class SensitiveFilter implements Filter {
 

@@ -1,9 +1,9 @@
-package cn.element.chain_responsibility;
+package cn.element.chainresponsibility;
 
-import cn.element.chain_responsibility.filter.FaceFilter;
-import cn.element.chain_responsibility.filter.HTMLFilter;
-import cn.element.chain_responsibility.filter.SensitiveFilter;
-import cn.element.chain_responsibility.filter.URLFilter;
+import cn.element.chainresponsibility.filter.FaceFilter;
+import cn.element.chainresponsibility.filter.HTMLFilter;
+import cn.element.chainresponsibility.filter.SensitiveFilter;
+import cn.element.chainresponsibility.filter.URLFilter;
 
 public class Client {
 
