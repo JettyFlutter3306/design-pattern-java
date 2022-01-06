@@ -12,7 +12,7 @@ public class Client {
 
         QueryRuleSqlBuilder builder = new QueryRuleSqlBuilder(queryRule);
 
-        System.out.println(builder.build("tb_member"));
+        System.out.println(builder.build("`tb_member`"));
         System.out.println("Params: " + Arrays.toString(builder.getValues()));
     }
 }
