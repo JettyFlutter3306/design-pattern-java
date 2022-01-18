@@ -32,7 +32,7 @@ public abstract class EventContext {
 
     private void trigger(Event event) {
         event.setSource(this)
-                .setTime(System.currentTimeMillis());
+             .setTime(System.currentTimeMillis());
 
         try {
             if (event.getCallback() != null) {
