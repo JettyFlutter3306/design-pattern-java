@@ -35,17 +35,17 @@
 | 用例(User Case)      | 指对一组动作序列的描述,系统执行这些动作将产生一个对特定的参与者(Actor)有价值且可观察的结果 | ![](images/User-Case.png)      |
 | 协作(Collaborations) | 定义元素之间的相互作用                                       | ![](images/Collaborations.png) |
 | 组件(Component)      | 描述物理系统的一部分                                         | ![](images/Component.png)      |
-| 活动类(Active Class) | 指对象有一个或多个进程或线程.活动类和类很相像,只是它的对象代表的元素行为和其他元素是同时存在的 | ![](images/Active Class.png)   |
+| 活动类(Active Class) | 指对象有一个或多个进程或线程.活动类和类很相像,只是它的对象代表的元素行为和其他元素是同时存在的 | ![](images/ActiveClass.png)    |
 | 节点(Node)           | 定义为运行时存在的物理元素                                   | ![](images/Node.png)           |
 
 #### 		2) 行为事物
 
 ​		行为事物是指UML建模中的动态部分.
 
-| 事物                  | 解释                       | 图例                          |
-| --------------------- | -------------------------- | ----------------------------- |
-| 交互(Interaction)     | 包括一组元素之间的消息交换 | ![](images/Interaction.png)   |
-| 状态机(State Machine) | 由一系列对象的状态组成     | ![](images/State Machine.png) |
+| 事物                  | 解释                       | 图例                         |
+| --------------------- | -------------------------- | ---------------------------- |
+| 交互(Interaction)     | 包括一组元素之间的消息交换 | ![](images/Interaction.png)  |
+| 状态机(State Machine) | 由一系列对象的状态组成     | ![](images/StateMachine.png) |
 
 #### 		3) 分组事物
 
