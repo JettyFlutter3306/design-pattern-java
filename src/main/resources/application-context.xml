@@ -15,12 +15,11 @@
     <!--proxy-target-class="true"表示使用cglib进行动态代理 不加则报错 默认是false
         否则将会使用JDK动态代理 是针对接口的代理 所以强转成类时会报错-->
     <aop:config proxy-target-class="true">
-            <aop:aspect ref="timeProxy">  <!--切面 通知 + 切入点-->
-                <!--切入点-->
-                <aop:pointcut id="onMove" expression="execution(void cn.element.proxy.Tank.move())"/> <!--切面表达式-->
-                <aop:before method="before" pointcut-ref="onMove"/>  <!--切面前置方法-->
-                <aop:after method="after" pointcut-ref="onMove"/>  <!--切面后置方法-->
-            </aop:aspect>
-
-        </aop:config>
+        <aop:aspect ref="timeProxy">  <!--切面 通知 + 切入点-->
+            <!--切入点-->
+            <aop:pointcut id="onMove" expression="execution(void cn.element.proxy.Tank.move())"/> <!--切面表达式-->
+            <aop:before method="before" pointcut-ref="onMove"/>  <!--切面前置方法-->
+            <aop:after method="after" pointcut-ref="onMove"/>  <!--切面后置方法-->
+        </aop:aspect>
+    </aop:config>
 </beans>
