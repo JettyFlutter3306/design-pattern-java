@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Client {
 
-    public static void main(String[] args) throws CloneNotSupportedException {
+    public static void main(String[] args) {
         // 创建原型对象
         ConcretePrototype type = new ConcretePrototype("original");
         List<String> hobbies = new ArrayList<String>() {{
