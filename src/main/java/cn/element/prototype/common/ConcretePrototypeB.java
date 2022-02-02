@@ -1,6 +1,6 @@
 package cn.element.prototype.common;
 
-public class ConcretePrototypeB implements IPrototype<ConcretePrototypeB> {
+public class ConcretePrototypeB implements IPrototype<ConcretePrototypeB>, Cloneable {
 
     protected String desc;
 

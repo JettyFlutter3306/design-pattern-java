@@ -3,7 +3,7 @@ package cn.element.prototype.common;
 /**
  * 具体原型
  */
-public class ConcretePrototypeA implements IPrototype<ConcretePrototypeA> {
+public class ConcretePrototypeA implements IPrototype<ConcretePrototypeA>, Cloneable {
 
     protected String desc;
 
