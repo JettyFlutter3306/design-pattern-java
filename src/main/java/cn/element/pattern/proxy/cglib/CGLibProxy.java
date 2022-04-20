@@ -16,7 +16,6 @@ public class CGLibProxy implements MethodInterceptor {
         Enhancer enhancer = new Enhancer();
         enhancer.setSuperclass(clazz);
         enhancer.setCallback(this);
-
         return enhancer.create();
     }
 
@@ -25,7 +24,6 @@ public class CGLibProxy implements MethodInterceptor {
         before();
         Object obj = methodProxy.invokeSuper(o, objects);
         after();
-
         return obj;
     }
 
